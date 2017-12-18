@@ -12,7 +12,7 @@ import AlbumList from './src/components/AlbumList';
 // 3. Make sure the parent provide the props that the dynamic area is expecting
 
 const App = () => (
-  <View>
+  <View style={{ flex: 1 }}>
     <Header headerText={'Albums'} />
     <AlbumList />
   </View>
